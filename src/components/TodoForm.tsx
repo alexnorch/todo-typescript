@@ -2,7 +2,7 @@ import React, { useRef } from "react"
 
 interface TodoFormProps {
     onAdd(title: string): void
-} // What is interface blyat???
+}
 
 export const TodoForm: React.FC<TodoFormProps> = (props) => {
 //   const [title, setTitle] = useState<string>('')
